@@ -9670,7 +9670,13 @@ p.white {
   overflow: hidden; }
 
 .radius-image {
-  border-radius: var(--border-radius); }
+  border-radius: var(--border-radius); 
+
+  height: 380px !important;
+  /* width: auto !important; */
+  
+
+}
 
 .radius-image-full {
   border-radius: var(--border-radius-full); }
@@ -10448,15 +10454,15 @@ a.login:hover {
   padding: 3em 0; }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../imgs/IMG_4976.JPG) no-repeat center;
+  background: url(../imgs/WhatsApp\ Image\ 2024-04-07\ at\ 9.58.25\ PM.jpeg) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../imgs/IMG_4976.JPG) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/banner4.jpg) no-repeat center;
+  background: url(../imgs/WhatsApp\ Image\ 2024-04-07\ at\ 10.03.23\ PM.jpeg) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-view:before {
@@ -11183,7 +11189,9 @@ ul.rating-star li span.fa {
 .w3l-team .box16 {
   text-align: center;
   color: #fff;
-  position: relative; }
+  position: relative; 
+
+}
 
 .w3l-team .box16 a {
   display: block; }
